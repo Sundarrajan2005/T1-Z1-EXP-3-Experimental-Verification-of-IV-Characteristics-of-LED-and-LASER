@@ -15,11 +15,17 @@ To study the characteristics of fiber optic LED and plot the graph of forward cu
 ## 🧰 EQUIPMENTS REQUIRED:
 
 	Link-B Kit with power supply.
+
 	FCL-01 & FCL-02.
+
 	Patch chords.
+
 	20MHz Dual Channel Oscilloscope.
+
 	1 MHz Function Generator.
+
 	1 Meter Fiber Cable.
+
 	Jumper to Crocodile wires.
   
 
@@ -43,27 +49,45 @@ LED's have a linear optical output with relation to the forward current over a c
 ## 🧪 PROCEDURE:
 
 	Refer to the block diagram and make the following connections.
+
 	Keep all switch faults in OFF position.
+
 	Slightly unscrew the cap of LED SFH756V (660nm). Do not remove the cap from the connector. Once the cap is loosened, insert the 1-meter fiber into the cap. Now tighten the cap by screwing it back.
+
 	Slightly unscrew the cap of Photo Diode SFH250V. Do not remove the cap from the connector. Once the cap is loosened, insert the other end of fiber into the cap. Now tighten the cap by screwing it back.
+
 	Keep the jumpers JP1 short for +12v, JP2 towards sine wave, JP3 short for
 +12 v & JP4 towards TX1on FCL-01.
+
 	Keep switch SW2 in VI position on FCL-01.
+
 	Connect voltmeter and current meter as per the polarities shown in the block diagram.
+
 	Switch on the power supply.
+
 	Keep the potentiometer P3 in its maximum position (anti-clockwise rotation). P3 is used to control current flowing through the LED.
+
 	Keep the potentiometer P4 in its fully clockwise rotation.P4 is used to control bias voltage of the LED.
+
 	To get the IV characteristics of LED, rotate P3 slowly and measure forward current and corresponding forward voltage. Take number of such readings for various current values and plot IV characteristics graph for the LED.
-•	For each reading taken above, find out the power, which is product of I and
-V. This is the electrical power supplied to the LED. Data sheets for the LED specify optical power coupled into plastic fiber when forward current was 10 mA as 200 mW. This means that the electrical power at 10 mA current is converted into 200 mW of optical energy. Hence the efficiency of the LED comes out to be approx. 1.15%.
+
+•	For each reading taken above, find out the power, which is product of I and V. 
+
+This is the electrical power supplied to the LED. Data sheets for the LED specify optical power coupled into plastic fiber when forward current was 10 mA as 200 mW. 
+
+This means that the electrical power at 10 mA current is converted into 200 mW of optical energy. Hence the efficiency of the LED comes out to be approx 1.15%.
+
 •	With this efficiency assumed, find out optical power coupled into plastic optical fiber for each of the reading. Plot the graph of forward current v/s output optical power of the LED.
+
 •	Similarly measure the current at the detector.
 •	Plot the graph of receiver current v/s output optical power of the LED.
 •	Perform the above procedure again for all the combinations of Transmitter & Receiver.
 
 
 ---
+
 ## BLOCK DIAGRAM:
+
 <img width="1135" height="715" alt="image" src="https://github.com/user-attachments/assets/ee34ea62-0c00-461a-9486-92f22eb0efec" />
 
 
@@ -73,6 +97,7 @@ V. This is the electrical power supplied to the LED. Data sheets for the LED spe
 ## 📊 TABULATION:
 
 ### LED Forward Characteristics:
+
 <img width="1822" height="1578" alt="image" src="https://github.com/user-attachments/assets/49ae362f-2322-4a48-9cd2-1227d57a3fc0" />
 
 <img width="2155" height="1626" alt="image" src="https://github.com/user-attachments/assets/8b033c02-ace6-4db8-bb32-f0b7cf8a4ca2" />
@@ -82,6 +107,11 @@ V. This is the electrical power supplied to the LED. Data sheets for the LED spe
 
 
 ## 📈 MODEL GRAPH:
+
+
+<img width="928" height="744" alt="image" src="https://github.com/user-attachments/assets/299fac23-dea2-461d-9294-9eabef952678" />
+
+## OUTPUT GRAPH:
 
 <img width="1266" height="1600" alt="image" src="https://github.com/user-attachments/assets/ff826989-e6a0-4da1-b8b6-e19367075359" />
 
